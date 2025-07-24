@@ -1,0 +1,9 @@
+[Unit]
+Description=Rapsberry Pi Integration for Airgeek A1/M1
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/airgeek-rpi-launch.sh
+
+[Install]
+WantedBy=default.target

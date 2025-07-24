@@ -14,4 +14,4 @@ stty -F "$SERIAL" 115200 -igncr
 exec <"$SERIAL"
 
 # Launch the sidecar
-exec go run .
+exec /usr/bin/airgeek-rpi
